@@ -1,0 +1,172 @@
+body {
+    background-color: #263238;
+    width: 1000px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.left_area {
+    width: 600px;
+    float: left;
+}
+
+.right_area {
+    width: 400px;
+    height: 900px;
+    background-color: #263238;
+    float: left;
+}
+
+body h2 {
+    font-family: 'Economica', sans-serif;
+    text-align: center;
+    color: #eceff1;
+    margin: 22px;
+}
+
+/* 右に表示される次のブロック */
+table#next {
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
+}
+
+/* 次のブロックのCSS */
+.next_block_area {
+    width: 380px;
+    height: 350px;
+    margin: 0 10px;
+    background-color: #263238;
+    border: 0.2px solid;
+    border-color: #cfd8dc;
+}
+
+/* HOW TO エリア */
+.how_to_area {
+    margin-top: 10px;
+    width: 350px;
+    height: 280px;
+    margin: 35px 10px;
+    padding: 0 15px;
+    background-color: #263238;
+    border: 0.2px solid;
+    border-color: #cfd8dc;
+}
+
+.how_to_area div {
+    color: #eceff1;
+    margin: 14px 0;
+}
+
+/* キーボードCSS */
+.keyboard {
+    display: inline-block;
+    width: 40px;
+    height: 25px;
+    padding: 4px 12px;
+    margin: 0 4px;
+    background: #263238;
+    border-radius: 3px;
+    color: #eceff1;
+    text-align: center;
+    border: 0.2px solid;
+    border-color: #cfd8dc;
+}
+
+/* スコアエリア */
+.score_area {
+    margin-top: 10px;
+    width: 340px;
+    height: 190px;
+    margin: 35px 10px;
+    padding: 0 20px;
+    background-color: #263238;
+    border: 0.2px solid;
+    border-color: #cfd8dc;
+}
+
+.score_icon {
+    color: #eceff1;
+    text-align: center;
+}
+
+.score_text {
+    color: #eceff1;
+    margin: 8px 0;
+}
+
+.goal_times, .timer {
+    font-size: 30px;
+}
+
+/* メインボード */
+table#board {
+    margin: 0 auto;
+    width: 500px;
+    height: 900px;
+}
+
+td {
+    width: 8%;
+    /*横12マス*/
+    height: 4%;
+    /*縦22マス*/
+}
+
+/* ブロックのCSS */
+.will-delate {
+    opacity: 0.8;
+    -webkit-opacity: .5;
+    -moz-opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+.max_bottom {
+    opacity: 0.8;
+    border: 0.8px solid;
+    border-color: #b0bec5;
+}
+
+.default {
+    background-color: #455A64;
+}
+
+.stick {
+    background-color: #00bcd4;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -ms-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+
+.L {
+    background-color: #E91E63;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -ms-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+
+.thumb {
+    background-color: #CDDC39;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -ms-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+
+.snake {
+    background-color: #9C27B0;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -ms-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+
+.convex {
+    background-color: #ffc107;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -ms-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}

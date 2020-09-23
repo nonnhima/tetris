@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="https://fonts.googleapis.com/css?family=Economica:700" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css" >
+        <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+        <script type="text/javascript" src="js/board.js"></script>
+        <script type="text/javascript" src="js/tetris.js"></script>
+        <script type="text/javascript" src="js/next_block_view.js"></script>
+        <script type="text/javascript" src="js/timer.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <title>テトリス</title>
+    </head>
+    <body>
+        <div class="left_area">
+            <table id="board"></table>
+        </div>
+        <div class="right_area">
+            <div class = "next_block_area">
+                <h2>NEXT BLOCK</h2>
+                <table id="next">
+                    <tr><td class="default" data-pos="11"></td><td class="default" data-pos="12"></td><td class="default" data-pos="13"></td><td class="default" data-pos="14"></td><td class="default" data-pos="15"></td><td class="default" data-pos="16"></td></tr>
+                    <tr><td class="default" data-pos="21"></td><td class="default" data-pos="22"></td><td class="default" data-pos="23"></td><td class="default" data-pos="24"></td><td class="default" data-pos="25"></td><td class="default" data-pos="26"></td></tr>
+                    <tr><td class="default" data-pos="31"></td><td class="default" data-pos="32"></td><td class="default" data-pos="33"></td><td class="default" data-pos="34"></td><td class="default" data-pos="35"></td><td class="default" data-pos="36"></td></tr>
+                    <tr><td class="default" data-pos="41"></td><td class="default" data-pos="42"></td><td class="default" data-pos="43"></td><td class="default" data-pos="44"></td><td class="default" data-pos="45"></td><td class="default" data-pos="46"></td></tr>
+                    <tr><td class="default" data-pos="51"></td><td class="default" data-pos="52"></td><td class="default" data-pos="53"></td><td class="default" data-pos="54"></td><td class="default" data-pos="55"></td><td class="default" data-pos="56"></td></tr>
+                    <tr><td class="default" data-pos="61"></td><td class="default" data-pos="62"></td><td class="default" data-pos="63"></td><td class="default" data-pos="64"></td><td class="default" data-pos="65"></td><td class="default" data-pos="66"></td></tr>
+                </table>
+            </div>
+            <div class = "how_to_area">
+                <h2>HOW TO PLAY <i class="fas fa-keyboard"></i></h2>
+                <div><span class="keyboard"><i class="fas fa-long-arrow-alt-left"></i></span> <span class="keyboard"><i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></span> Move left and right</div>
+                <div><span class="keyboard"><i class="fas fa-long-arrow-alt-down" aria-hidden="true"></i></span> 下にスキップ Skip to bottom</div>
+                <div><span class="keyboard"><i class="fa fa-chevron-left" aria-hidden="true"></i></span> 左回転 Left rotation</div>
+                <div><span class="keyboard"><i class="fa fa-chevron-right" aria-hidden="true"></i></span> 右回転 Right rotation</div>
+            </div>
+            <div class = "score_area">
+                <h2>SCORE</h2>
+                <div class="score_text"><span class="score_icon"><i class="fas fa-flag fa-2x"></i></span>　列を削除した回数　<span class="goal_times">0</span> 回</div>
+                <div class="score_text"><span class="score_icon"><i class="fas fa-stopwatch fa-2x"></i></span>　経過時間　<span class="timer">00:00.00</div></div>
+            </div>
+        </div>
+    </body>
+</html>
